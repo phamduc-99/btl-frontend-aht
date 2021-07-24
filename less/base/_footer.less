@@ -1,0 +1,179 @@
+footer {
+    background-color: @bg-header;
+    .footer-list {
+        padding-top: 28px;
+        padding-bottom: 20px;
+        h3 {
+            font-size: 16px;
+            letter-spacing: 0.6px;
+            line-height: 22px;
+            color: @title-footer;
+            font-weight: 400;
+        }
+        .border-f {
+            width: 260px;
+			height: 9px;
+			border-bottom: 1px solid #393939;
+        }
+        &-content1 {
+            .col (33.333%);
+            p {
+                font-size: 14.5px;
+                line-height: 22px;
+                color: #888888;
+                font-weight: 400;
+                font-family: "Open Sans";
+                width: 260px;
+                padding-top: 7px;
+            }
+            ul {
+                padding-top: 29px;
+                li {
+                    display: inline-block;
+                    margin-right: 29px;
+                    a {
+                        i {
+                            display: inline-block;
+							color: #888888;
+							font-size: 15px;
+                            &:hover {
+                                color: @color-bg;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-content2 {
+            .col (33.333%);
+            .border-f {
+                width: 360px;
+            }
+            .list-menu {
+                padding-top: 19px;
+                a {
+                    font-size: 13.8px;
+                    line-height: 30px;
+                    color: @text-footer;
+                    font-weight: 400;
+                    font-family: "Open Sans";
+                    letter-spacing: 0.08px;
+                    &:hover {
+                        color: @bg-item;
+                        border-bottom: 1px solid #ddd;
+                    }
+                }
+                &-2 {
+                    margin-right: 37px;
+                }
+                display: flex;
+                justify-content: space-between
+            }
+
+        }
+        &-content3 {
+            .col (33.333%);
+            padding-left: 112px;
+            .info {
+                &-content1 {
+                    display: flex;
+                    letter-spacing: 0.1px;
+                    color: @text-footer;
+                    font-size: 14px;
+					line-height: 34px;
+					font-family: 'Open Sans';
+                    padding-top: 4px;
+                    padding-left: 2px;
+                    i {
+                        margin-top: 25px;
+                        margin-right: 15px;
+                    }
+                }
+                &-content2 {
+                    display: flex;
+                    letter-spacing: 0.1px;
+                    color: @text-footer;
+                    font-size: 14px;
+					line-height: 34px;
+					font-family: 'Open Sans';
+                    padding-bottom: 25px;
+                    i {
+                        margin-right: 15px;
+                        margin-top: -5px;
+                    }
+                    p {
+                        margin-top: -14px;
+                        margin-left: 2px;
+                    }
+                }
+                .c3 {
+                    margin-top: -26px;
+                    i {
+                        margin-top: -1px;
+                    }
+                }
+            }
+        }
+    }
+    .copyright-cards {
+        border-top: 1px solid #393939;
+        padding-top: 10px;
+        .row-copy-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding-top: 5px;
+            padding-right: 7px;
+        .copyright {
+            p {
+				font-size: 14px;
+                font-weight: 400;
+				color: @text-footer;
+				font-family: 'Open Sans';
+				letter-spacing: 0.2px;
+
+				i.heart {
+                    font-size: 14px;
+					color: red;
+					padding: 0 4px 0 4;
+				}
+
+				i.copyright-icon {
+					font-size: 11px;
+					padding:0 4px 0 0.5px;
+					padding-right: 4px;
+				}
+                
+				a {
+					margin-left: 3.9px;
+					text-decoration: none;
+					color: @color-bg;
+				}
+
+				a:hover {
+					color: @color-main;
+				}
+			}
+        }
+        .cards {
+
+            ul {
+                li{
+                    display: inline-block;
+                    i {
+                        color: @text-footer;
+                        font-size: 22px;
+                        line-height: 22px;
+                        &:hover {
+                            color: @color-bg;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    }
+}
