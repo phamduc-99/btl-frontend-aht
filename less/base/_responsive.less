@@ -38,6 +38,7 @@
             height: 65px;
             &-inner { 
                 position: relative;
+                padding: 0;
                 .logo {
                     order: 2;
                     position: absolute;
@@ -172,17 +173,10 @@
     .main-content{
     .banner{
         .banner-button {
-                width: 80px;
-                height: 30px;
-                a{
-                    font-size: 11px;
-                }
-            }
-        &-left {
-            &-content {
-                &-title {
-                    font-size: 23px;
-                }
+            width: 80px;
+            height: 30px;
+            a{
+                font-size: 11px;
             }
         }
         &-right {
@@ -210,6 +204,9 @@
         .footer-list {
             &-content1 {
                 width: 100%;
+                p {
+                    width: 100%;
+                }
             }
             &-content2 {
                 width: 50%;
@@ -238,7 +235,7 @@
             height: 60px;
             &-inner {
                 .logo {
-                    right: 14%;
+                    right: 28%;
                 }
             }
             &-inner {
@@ -263,7 +260,7 @@
             &-left {
                 &-content {
                     &-title {
-                        font-size: 16px;
+                        font-size: 23px;
                     }
                 }
             }
@@ -298,7 +295,7 @@
             }
             .content {
                 .item-content {
-                    width: 100%;
+                    width: 50%;
                 }
             }
         }
@@ -306,20 +303,10 @@
     footer {
         .footer-list {
             &-content2 {
-                width: 100%;
+                width: 50%;
             }
             &-content3 {
-                width: 100%;
-            }
-        }
-        .copyright-cards {
-            .row-copy-card { 
-                .copyright {
-                    width: 100%;
-                }
-                .cards {
-                    padding-left: 15px;
-                }
+                width: 50%;
             }
         }
     }
@@ -341,7 +328,7 @@
             &-inner {
                 .logo {
                     right: 0%;
-                    left: 23%;
+                    left: 30%;
                     img {
                         width: 50%;
                     }
@@ -354,9 +341,6 @@
                     .navbar {
                         li {
                             margin-left: 5px;
-                            &:last-child {
-                                display: none;
-                            }
                         }
 
                     }
@@ -394,6 +378,33 @@
             }
         }
     }
+    .item {
+        .content {
+            .item-content {
+                width: 100%;
+            }
+        }
+    }
+    }
+    footer {
+        .copyright-cards {
+            .row-copy-card {
+                .copyright {
+                    order: 2;
+                    width: 100%;
+                    p {
+                        a {
+                            margin-left: 0;
+                        }
+                    }
+                }
+                .cards {
+                    order: 1;
+                    width: 100%;
+                    margin-left: 95px;
+                }
+            }
+        }
     }
 }
 

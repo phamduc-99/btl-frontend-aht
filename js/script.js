@@ -3,7 +3,6 @@ $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 30,
     dots:true, 
-    
     responsive:{
         1920:{
             items:3
@@ -12,7 +11,7 @@ $('.owl-carousel').owlCarousel({
             items:3
         },
         1024:{
-            items:2
+            items:3
         },
         768:{
             items:2

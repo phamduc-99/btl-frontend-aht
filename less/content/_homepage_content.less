@@ -152,7 +152,6 @@
                     justify-content: center;
                     &:hover {
                         color: @color-main;
-                        border: 1px solid @text-blog;
                     }
                 }
                 }
@@ -216,7 +215,7 @@
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        padding-bottom: 82px;
+        padding-bottom: 62px;
         &-title {
             h4 {
                 padding-top: 76px;
@@ -252,7 +251,6 @@
             .card {
                 background-color: @color-bg;
                 border: none;
-                width: 360px;
                 .box-date {
                     background-color: @blog-time;
                     width: 60px;
@@ -330,6 +328,35 @@
 			        }
                 }
             }
+        }
+        .btnCarousel {
+            font-size: 30px;
+            display: none;
+            padding-right: 10px;
+        }
+    
+        .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+            background: @color-main;
+        }
+    
+        .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span{
+            background: #b3a6c7;
+        }
+    
+        .owl-carousel .owl-dots .owl-dot.active span {
+            background: @color-main;
+        }
+    
+        .owl-theme .owl-dots .owl-dot {
+            outline: none;
+        }
+    
+        .owl-dots .owl-dot.active span {
+            width: 13px;
+            height: 13px;
+        }
+        .owl-theme .owl-dots {
+            margin-top: 28px;
         }
     }
 }
