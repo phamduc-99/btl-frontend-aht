@@ -1000,6 +1000,9 @@ footer .copyright-cards .row-copy-card .cards ul li i:hover {
   .main-content .item .content .item-content {
     width: 100%;
   }
+  footer .footer-list-content2 .list-menu-2 {
+    margin-left: 20px;
+  }
   footer .copyright-cards .row-copy-card .copyright {
     order: 2;
     width: 100%;
