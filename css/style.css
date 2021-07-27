@@ -312,7 +312,7 @@ ul li {
   margin-top: -5px;
 }
 .main-content .item .content {
-  padding-top: 45px;
+  padding-top: 40px;
 }
 .main-content .item .content .item-content {
   width: 25%;
@@ -339,12 +339,12 @@ ul li {
   line-height: 26px;
   text-transform: uppercase;
   position: absolute;
-  left: 7px;
-  bottom: 7px;
+  left: 5px;
+  bottom: 5px;
   border: none;
   background-color: #ffffff;
   width: 117px;
-  height: 42px;
+  height: 39px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -358,7 +358,7 @@ ul li {
   font-size: 14px;
   line-height: 26px;
   color: #000;
-  margin-top: 7px;
+  margin-top: 12px;
 }
 .main-content .item .content .item-content-title a:hover {
   color: #8262b5;
@@ -401,11 +401,11 @@ ul li {
   color: #8262b5;
 }
 .main-content .item .row2 {
-  margin-top: -7px;
+  margin-top: -10px;
 }
 .main-content .blog {
   background-image: url(../image/background.jpg);
-  margin-top: 34px;
+  margin-top: 32px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
