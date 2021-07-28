@@ -984,8 +984,8 @@ footer .copyright-cards .row-copy-card .cards ul li i:hover {
     font-size: 15px;
   }
   .main-content .banner-left-content {
-    top: calc(50% - 15px);
-    left: calc(50% - 2px);
+    top: calc(50% + 27px);
+    left: calc(50% - 24px);
   }
   .main-content .banner-left-content-title {
     font-size: 16px;
@@ -994,14 +994,17 @@ footer .copyright-cards .row-copy-card .cards ul li i:hover {
     left: calc(50% - 200px);
     top: calc(50% + 4px);
   }
-  .main-content .banner-right-col-item img {
-    height: 120px;
-  }
   .main-content .item .content .item-content {
+    width: 100%;
+  }
+  footer .footer-list-content2 {
     width: 100%;
   }
   footer .footer-list-content2 .list-menu-2 {
     margin-left: 20px;
+  }
+  footer .footer-list-content3 {
+    width: 100%;
   }
   footer .copyright-cards .row-copy-card .copyright {
     order: 2;
