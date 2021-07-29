@@ -21,6 +21,9 @@ $('.owl-carousel').owlCarousel({
         },
         375:{
             items:1
+        },
+        320:{
+            items:1
         }
     }
 });

@@ -47,7 +47,7 @@ footer {
         &-content2 {
             .col (33.333%);
             .border-f {
-                width: 360px;
+                max-width: 360px;
             }
             .list-menu {
                 padding-top: 19px;
@@ -83,6 +83,9 @@ footer {
 					font-family: 'Open Sans';
                     &:hover {
                         color: @bg-item;
+                        p {
+                        border-bottom: 1px solid #ddd;
+                        }
                     }
                 }
                 &-content1 {
@@ -147,7 +150,7 @@ footer {
 				}
                 
 				a {
-					margin-left: 3.9px;
+					margin-left: 1px;
 					text-decoration: none;
 					color: @color-bg;
 				}
@@ -158,10 +161,11 @@ footer {
 			}
         }
         .cards {
-
+            margin-right: -5px;
             ul {
                 li{
                     display: inline-block;
+                    margin-left: 2px;
                     i {
                         color: @text-footer;
                         font-size: 22px;
