@@ -699,7 +699,7 @@ footer .copyright-cards .row-copy-card .copyright p {
 footer .copyright-cards .row-copy-card .copyright p i.heart {
   font-size: 14px;
   color: red;
-  padding: 0 4px 0 4;
+  padding: 0 4px 0 4px;
 }
 footer .copyright-cards .row-copy-card .copyright p i.copyright-icon {
   font-size: 11px;
